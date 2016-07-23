@@ -28,4 +28,5 @@ class { 'minecraft':
   white_list_players => $friends,
   autostart          => true,
   manage_java        => true,
+  level_type         => 'AMPLIFIED'
 }
