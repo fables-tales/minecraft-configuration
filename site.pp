@@ -29,3 +29,9 @@ class { 'minecraft':
   autostart          => true,
   manage_java        => true,
 }
+
+file { "/opt/minecraft/eula.txt":
+  ensure => "present",
+  content => "eula=true",
+  require => Class["minecraft"],
+}
