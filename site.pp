@@ -21,7 +21,7 @@ $friends = [
 class { 'minecraft':
   source             => '1.10.2',
   heap_size          => 3000,
-  difficulty         => 2,
+  difficulty         => 3,
   motd               => 'Computers',
   ops                => $friends,
   white_list         => true,
