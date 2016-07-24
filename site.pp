@@ -16,6 +16,7 @@ ghuser {'samphippen':
 $friends = [
   'samphippen',
   'neoncode',
+  'Lukeus_Maximus',
 ]
 
 class { 'minecraft':
