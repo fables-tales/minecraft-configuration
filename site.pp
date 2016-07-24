@@ -31,3 +31,9 @@ class { 'minecraft':
   manage_java        => true,
   level_type         => 'AMPLIFIED'
 }
+
+file { "/opt/minecraft/eula.txt":
+  ensure => "present",
+  content => "eula=true",
+  require => Class["minecraft"],
+}
