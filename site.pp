@@ -29,7 +29,8 @@ class { 'minecraft':
   white_list_players => $friends,
   autostart          => true,
   manage_java        => true,
-  level_type         => 'AMPLIFIED'
+  level_type         => 'AMPLIFIED',
+  max_build_height   => 512,
 }
 
 file { "/opt/minecraft/eula.txt":
