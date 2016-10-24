@@ -17,6 +17,7 @@ $friends = [
   'samphippen',
   'neoncode',
   'Lukeus_Maximus',
+  'Neosyfie',
 ]
 
 class { 'minecraft':
